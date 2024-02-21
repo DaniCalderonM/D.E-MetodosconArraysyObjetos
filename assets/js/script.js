@@ -107,15 +107,15 @@ copiaTraumatologia.push({ hora: '09:30', especialista: 'MARIA SOLAR', paciente: 
 copiaTraumatologia.push({ hora: '10:00', especialista: 'RAUL LOYOLA', paciente: 'CARMEN ISLA', rut: '10112348-3', prevision: 'ISAPRE' })
 copiaTraumatologia.push({ hora: '10:30', especialista: 'ANTONIO LARENAS', paciente: 'PABLO LOAYZA', rut: '13453234-1', prevision: 'ISAPRE' })
 copiaTraumatologia.push({ hora: '12:00', especialista: 'MATIAS ARAVENA', paciente: 'SUSANA POBLETE', rut: '14345656-6', prevision: 'FONASA' })
-console.log(copiaTraumatologia);
+console.log("Añadiendo los objetos nuevos con push en copiaTraumatologia: ", copiaTraumatologia);
 
 //2. Eliminar el primer y último elemento del arreglo de Radiología.
 //Con .shift eliminamos el primer elemento.
 copiaRadiologia.shift();
 //Con .pop eliminamos el ultimo elemento.
 copiaRadiologia.pop();
-console.log(radiologia);
-console.log(copiaRadiologia);
+console.log("Pacientes arreglo de objeto original radiologia: ", radiologia);
+console.log("Pacientes arreglo de objeto luego del shift y el pop en copiaRadiologia: ",copiaRadiologia);
 
 //3. Imprimir en la página HTML, mediante document.write y/o las funciones que estime
 //conveniente, la lista de consultas médicas de Dental. Sin embargo, debe hacerlo
